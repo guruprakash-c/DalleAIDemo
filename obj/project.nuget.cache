@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ALeuytnXMdgOhWjbXUTuTMYuaPxKpu0uUPpenp/wTKcFS9Ts05cryKVUV/jFdP/TUmWFeK/lyLdE+EXae6J9sA==",
+  "success": true,
+  "projectFilePath": "D:\\CoreProjects\\DalleAIDemo\\DalleAIDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guruprakash.c\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

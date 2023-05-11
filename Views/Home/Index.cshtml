@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>DALLE AI: .NET Demo</h1>
+<section class="container-fluid">
+    <div class="row g-2">
+        <section class="col-lg-3">
+            <h2>Your Query:</h2>
+            <div class="mt-2 mb-2">
+                <!--Text area for the prompt text-->
+                <textarea class="form-control" id="queryTxtBx" placeholder="Enter your query here"></textarea>
+            </div>
+            <div class="mt-2 mb-2">
+                <!-- Desired number of images -->
+                <input type="number" min="1" step="1" max="5" value="1" placeholder="Enter quantity" id="quantityTxtBx" />
+            </div>
+            <div class="mt-2 mb-2">
+                <!--Desired image size-->
+                <select class="form-select" id="sizeCmbBx">
+                    <option value="" label="-- Select --"></option>
+                    <option value="256x256" label="256x256"></option>
+                    <option value="512x512" label="512x512"></option>
+                    <option value="1024x1024" label="1024x1024"></option>
+                </select>
+            </div>
+            <div class="mt-4 mb-4">
+                <button type="button" class="btn btn-primary" id="btnGen">
+                    Generate
+                </button>
+            </div>
+        </section>
+        <section class="col-lg-9">
+            <div class="loader mx-auto align-middle">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <!-- Generated Images -->
+            <div id="genImages" class="row">
+
+            </div>
+        </section>
+    </div>
+</section>
